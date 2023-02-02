@@ -17,9 +17,7 @@
   </head>
   <body>
     <main class="container-fluid row">
-      <header class="col-xl-12">
-        Webáruház
-      </header>
+      <header class="col-xl-12">Webáruház</header>
       <nav class="col-xl-12 navbar navbar-expand-sm bg-light">
         <div class="container-fluid">
           <ul class="nav">
@@ -37,54 +35,189 @@
       </nav>
       <aside class="col-xl-3">
         <form action="/action_page.php">
-            <div class="mb-3 mt-3">
-              <label for="TN">A termék név:</label>
-              <input type="text" class="form-control" id="TN" placeholder="A termék neve" name="TN">
-            </div>
-            <div class="mb-3 mt-3">
-                <label for="customRange" class="form-label">Szűrés ár szerint:</label>
-                <input type="range" class="form-range" id="customRange" name="points" min="0" max="20000" value="5000">
-            </div>
-          </form>
+          <div class="mb-3 mt-3">
+            <label for="TN">A termék név:</label>
+            <input
+              type="text"
+              class="form-control"
+              id="TN"
+              placeholder="A termék neve"
+              name="TN"
+            />
+          </div>
+          <div class="mb-3 mt-3">
+            <label for="customRange" class="form-label"
+              >Szűrés ár szerint:</label
+            >
+            <input
+              type="range"
+              class="form-range"
+              id="customRange"
+              name="points"
+              min="0"
+              max="20000"
+              value="5000"
+            />
+          </div>
+        </form>
       </aside>
       <article class="col-xl-6">
         <div class="container-fluid row">
-            <div class="card col-lg-3 col-md-4 col-sm-6">
-                <div class="card-header text-success"><h2>Polo1</h2></div>
-                <div class="card-body"><img src="polo1.jpg" alt="polo1" class="rounded img-fluid">
-                <p>A pólódat kifordítva 30 fokon, szárítógép használata nélkül mosd ki, így vigyázva a 100% pamut szövet és a nyomat minőségére. ...</p></div> 
-                <div class="card-footer row"> <span class="col-6 ">Ár: 6990 Ft</span>
-                    <button  c type="button" class="btn btn-primary text-warning col-6 ">Kosarban</button></div>
+          <div class="card col-lg-3 col-md-4 col-sm-6">
+            <div class="card-header text-success"><h2>Polo1</h2></div>
+            <div class="card-body">
+              <img src="polo1.jpg" alt="polo1" class="rounded img-fluid" />
+              <p
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="collapse"
+                data-bs-target="#demo"
+              >
+                Leiras
+              </p>
+              <div id="demo" class="collapse">
+                <p>
+                  A pólódat kifordítva 30 fokon, szárítógép használata nélkül
+                  mosd ki, így vigyázva a 100% pamut szövet és a nyomat
+                  minőségére. ...
+                </p>
+              </div>
             </div>
-            <div class="card col-lg-3 col-md-4 col-sm-6">
-                <div class="card-header text-success"><h2>Polo1</h2></div>
-                <div class="card-body"><img src="polo2.jpg" alt="polo1" class="rounded img-fluid">
-                <p>A pólódat kifordítva 30 fokon, szárítógép használata nélkül mosd ki, így vigyázva a 100% pamut szövet és a nyomat minőségére. ...</p></div> 
-                <div class="card-footer row"> <span class="col-6 ">Ár: 6990 Ft</span>
-                    <button  c type="button" class="btn btn-primary text-warning col-6 ">Kosarban</button></div>
+            <div class="card-footer row">
+              <span class="col-6">Ár: 6990 Ft</span>
+              <button
+                c
+                type="button"
+                class="btn btn-primary text-warning col-6"
+              >
+                Kosarban
+              </button>
+            </div>
+          </div>
+          <div class="card col-lg-3 col-md-4 col-sm-6">
+            <div class="card-header text-success"><h2>Polo1</h2></div>
+            <div class="card-body">
+              <img src="polo2.jpg" alt="polo1" class="rounded img-fluid" />
+              <p
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="collapse"
+                data-bs-target="#demo"
+              >
+                Leiras
+              </p>
+              <div id="demo" class="collapse">
+                <p>
+                  A pólódat kifordítva 30 fokon, szárítógép használata nélkül
+                  mosd ki, így vigyázva a 100% pamut szövet és a nyomat
+                  minőségére. ...
+                </p>
               </div>
-              <div class="card col-lg-3 col-md-4 col-sm-6">
-                <div class="card-header text-success"><h2>Polo1</h2></div>
-                <div class="card-body"><img src="polo3.jpg" alt="polo1" class="rounded img-fluid">
-                <p>A pólódat kifordítva 30 fokon, szárítógép használata nélkül mosd ki, így vigyázva a 100% pamut szövet és a nyomat minőségére. ...</p></div> 
-                <div class="card-footer row"> <span class="col-6 ">Ár: 6990 Ft</span>
-                    <button  c type="button" class="btn btn-primary text-warning col-6 ">Kosarban</button></div>
+            </div>
+            <div class="card-footer row">
+              <span class="col-6">Ár: 6990 Ft</span>
+              <button
+                c
+                type="button"
+                class="btn btn-primary text-warning col-6"
+              >
+                Kosarban
+              </button>
+            </div>
+          </div>
+          <div class="card col-lg-3 col-md-4 col-sm-6">
+            <div class="card-header text-success"><h2>Polo1</h2></div>
+            <div class="card-body">
+              <img src="polo3.jpg" alt="polo1" class="rounded img-fluid" />
+              <p
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="collapse"
+                data-bs-target="#demo"
+              >
+                Leiras
+              </p>
+              <div id="demo" class="collapse">
+                <p>
+                  A pólódat kifordítva 30 fokon, szárítógép használata nélkül
+                  mosd ki, így vigyázva a 100% pamut szövet és a nyomat
+                  minőségére. ...
+                </p>
               </div>
-              <div class="card col-lg-3 col-md-4 col-sm-6">
-                <div class="card-header text-success"><h2>Polo1</h2></div>
-                <div class="card-body"><img src="polo4.jpg" alt="polo1" class="rounded img-fluid">
-                <p>A pólódat kifordítva 30 fokon, szárítógép használata nélkül mosd ki, így vigyázva a 100% pamut szövet és a nyomat minőségére. ...</p></div> 
-                <div class="card-footer row"> <span class="col-6 ">Ár: 6990 Ft</span>
-                    <button  c type="button" class="btn btn-primary text-warning col-6 ">Kosarban</button></div>
+            </div>
+            <div class="card-footer row">
+              <span class="col-6">Ár: 6990 Ft</span>
+              <button
+                c
+                type="button"
+                class="btn btn-primary text-warning col-6"
+              >
+                Kosarban
+              </button>
+            </div>
+          </div>
+          <div class="card col-lg-3 col-md-4 col-sm-6">
+            <div class="card-header text-success"><h2>Polo1</h2></div>
+            <div class="card-body">
+              <img src="polo4.jpg" alt="polo1" class="rounded img-fluid" />
+              <p
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="collapse"
+                data-bs-target="#demo"
+              >
+                Leiras
+              </p>
+              <div id="demo" class="collapse">
+                <p>
+                  A pólódat kifordítva 30 fokon, szárítógép használata nélkül
+                  mosd ki, így vigyázva a 100% pamut szövet és a nyomat
+                  minőségére. ...
+                </p>
               </div>
-              <div class="card col-lg-3 col-md-4 col-sm-6">
-                <div class="card-header text-success"><h2>Polo1</h2></div>
-                <div class="card-body"><img src="polo5.jpg" alt="polo1" class="rounded img-fluid">
-                <p>A pólódat kifordítva 30 fokon, szárítógép használata nélkül mosd ki, így vigyázva a 100% pamut szövet és a nyomat minőségére. ...</p></div> 
-                <div class="card-footer row"> <span class="col-6 ">Ár: 6990 Ft</span>
-                <button  c type="button" class="btn btn-primary text-warning col-6 ">Kosarban</button></div>
-                
+            </div>
+            <div class="card-footer row">
+              <span class="col-6">Ár: 6990 Ft</span>
+              <button
+                c
+                type="button"
+                class="btn btn-primary text-warning col-6"
+              >
+                Kosarban
+              </button>
+            </div>
+          </div>
+          <div class="card col-lg-3 col-md-4 col-sm-6">
+            <div class="card-header text-success"><h2>Polo1</h2></div>
+            <div class="card-body">
+              <img src="polo5.jpg" alt="polo1" class="rounded img-fluid" />
+              <p
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="collapse"
+                data-bs-target="#demo"
+              >
+                Leiras
+              </p>
+              <div id="demo" class="collapse">
+                <p>
+                  A pólódat kifordítva 30 fokon, szárítógép használata nélkül
+                  mosd ki, így vigyázva a 100% pamut szövet és a nyomat
+                  minőségére. ...
+                </p>
               </div>
+            </div>
+            <div class="card-footer row">
+              <span class="col-6">Ár: 6990 Ft</span>
+              <button
+                c
+                type="button"
+                class="btn btn-primary text-warning col-6"
+              >
+                Kosarban
+              </button>
+            </div>
+          </div>
         </div>
       </article>
       <aside class="col-xl-3">Lorem.</aside>
